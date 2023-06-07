@@ -342,7 +342,7 @@ border: 0;
       right: 1rem;
       top: 2rem;
       background: transparent;
-      background-image: url(images/menu-gif.gif);
+      background-image: url(./images/menu-gif.gif);
       background-repeat: no-repeat;
       background-position: center;
       width: 1.5rem;
@@ -351,7 +351,7 @@ border: 0;
   }
   
   .mobile-nav-toggle[aria-expanded="true"] {
-      background-image: url(./images /close.gif);
+      background-image: url(./images/close.gif);
   }
   
   .mobile-nav-toggle:focus-visible {
@@ -452,7 +452,7 @@ body {
 
 /* home */
 .home {
-  background-image: url(../Online-Files);
+  background-image: url(images/kitchenpic005.jpeg);
 
 .p3 {
     background: hsl( var(--clr-white) / 0.05);
