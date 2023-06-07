@@ -351,7 +351,7 @@ border: 0;
   }
   
   .mobile-nav-toggle[aria-expanded="true"] {
-      background-image: url(./images/close.gif);
+      background-image: url(images/close.gif);
   }
   
   .mobile-nav-toggle:focus-visible {
@@ -462,19 +462,19 @@ body {
 @media (min-width: 35rem) {
   .home {
       background-position: center center;
-      background-image: url(./images /island\ &\ cabinets.jpeg);
+      background-image: url(images/island & cabinets.jpeg);
   }
 }
 
 @media (min-width: 45rem) {
   .home {
-      background-image: url(.images /island\ &\ cabinets.jpeg);
+      background-image: url(images/island & cabinets.jpeg);
   }
 } 
 
 /* About-Us */
 .about-us {
-  background-image: url(.images /island\ &\ cabinets.jpeg);
+  background-image: url(images/island & cabinets.jpeg);
   align-content: center;  
   text-align: center;
 }
@@ -489,7 +489,7 @@ body {
 @media (min-width: 35rem) {
   .about-us {
       background-position: center center;
-      background-image: url(./images /island\ &\ cabinets.jpeg);
+      background-image: url(images/island & cabinets.jpeg);
   }
 
   .p2 {
@@ -500,7 +500,7 @@ body {
 
 @media (min-width: 45rem) {
   .about-us {
-      background-image: url(.images /island\ &\ cabinets.jpeg);
+      background-image: url(.images/island & cabinets.jpeg);
   }
 } 
 
