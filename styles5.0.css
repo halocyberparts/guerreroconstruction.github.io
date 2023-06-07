@@ -475,33 +475,21 @@ body {
 /* About-Us */
 .about-us {
   background-image: url(images/kitchenpic005.jpeg);
-}
-
-.p2 {
-  align-content: center;  
-  text-align: center;
-}
-
 
 
 @media (min-width: 35rem) {
   .about-us {
       background-position: center center;
-      background-image: url(images/island & cabinets.jpeg);
+      background-image: url(images/kitchenpic005.jpeg);
   }
-
-  .p2 {
-  align-content: center;  
-  text-align: center;
- }
 }
 
 @media (min-width: 45rem) {
   .about-us {
-      background-image: url(.images/island & cabinets.jpeg);
+      background-image: url(images/kitchenpic005.jpeg);
   }
 } 
-
+  
 /* ----------------------------- */
 /* Layout                        */
 /* ----------------------------- */
