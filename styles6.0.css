@@ -448,9 +448,9 @@ border: 0;
 /* Page specific background      */
 /* ----------------------------- */
 body {
-  background-size: cover;
+  background-size: cover; 
   background-position: bottom center;
-}
+} 
 
 /* home */
 .home {
@@ -460,7 +460,7 @@ body {
 @media (min-width: 35rem) {
   .home {
       background-position: center center;
-      background-image: url(images/island & cabinets.jpeg);
+      background-image: url(https://github.com/halocyberparts/guerreroconstruction.github.io/blob/main/images/island%20%26%20cabinets.jpeg);
   }
 }
 
