@@ -235,7 +235,7 @@ select {
 /* ------------------- */
 
 .bg-marble {
-    background-image: url();
+    background-image: url(./images/marble.jpg);
   }
   
   .large-button {
@@ -406,7 +406,7 @@ select {
             right: 1rem;
             top: 2rem;
             background: transparent;
-            background-image: url(./images /menu-gif.gif);
+            background-image: url(./images/menu-gif.gif);
             background-repeat: no-repeat;
             background-position: center;
             width: 1.5rem;
@@ -415,7 +415,7 @@ select {
         }
         
         .mobile-nav-toggle[aria-expanded="true"] {
-            background-image: url(./images /close.gif);
+            background-image: url(./images/close.gif);
         }
         
         .mobile-nav-toggle:focus-visible {
@@ -515,7 +515,7 @@ select {
 /*____________-------------*/
      /* About-Us */
 .about-us {
-    background-image: url(./images2/kitchenpic005.jpeg);
+    background-image: url(./images/kitchenpic005.jpeg);
     align-content: center;  
     text-align: center;
   }
@@ -530,7 +530,7 @@ select {
   @media (min-width: 35rem) {
     .about-us {
         background-position: center center;
-        background-image: url(./images2/kitchenpic005.jpeg);
+        background-image: url(./images/kitchenpic005.jpeg);
     }
   
     .p2 {
@@ -541,7 +541,7 @@ select {
   
   @media (min-width: 45rem) {
     .about-us {
-        background-image: url(./images2/kitchenpic005.jpeg);
+        background-image: url(./images/kitchenpic005.jpeg);
     }
   } 
 
