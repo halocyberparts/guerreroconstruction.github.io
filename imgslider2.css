@@ -201,13 +201,13 @@
     margin-top: 9px;
     text-decoration: none;
     margin: auto;
-    font-size: small;
+    font-size: 12px;
   }
   
   /*-------------------------@medias--------------*/
   @media (max-width: 653px) {
     label.logo {
-        font-size: 55px;
+        font-size: 48px;
         padding-left: 20px;
         color: darkblue;
     }
