@@ -282,6 +282,7 @@ nav ul li a {
   border-radius: 3px;
   text-transform: uppercase;
   font-family: ff-sans-serif;
+  text-decoration: none;
 }
 
 a.active,a:hover {
