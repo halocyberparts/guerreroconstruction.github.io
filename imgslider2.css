@@ -214,7 +214,16 @@
     font-family: 'Zen Dots';
     margin-left: 40px;  
   }
-
+  
+    .sub-menu-2 a {
+    color: white;
+    justify-content: space-between;
+    display: block;
+    margin-top: 9px;
+    text-decoration: none;
+    margin: 2px 8px 4px 4px;
+    font-size: 12px;
+  }
   /*-------------------------@medias--------------*/
   @media (max-width: 653px) {
     label.logo {
