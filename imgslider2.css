@@ -198,7 +198,7 @@
     color: white;
     justify-content: space-between;
     display: block;
-    margin-top: auto;
+    margin: auto;
     text-decoration: none;
     font-size: 12px;
   }
