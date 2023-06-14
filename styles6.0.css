@@ -295,7 +295,7 @@ border: 0;
   padding: 0;
   margin: 0;
   background: hsl( var(--clr-dark) / 0.05);
-  backdrop-filter: blur(2.5rem);
+  backdrop-filter: blur(11.5rem);
 }
 
 .primary-navigation a {
