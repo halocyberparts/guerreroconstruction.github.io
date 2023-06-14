@@ -198,9 +198,8 @@
     color: white;
     justify-content: space-between;
     display: block;
-    margin-top: 9px;
+    margin-top: auto;
     text-decoration: none;
-    margin: 2px 8px 4px 4px;
     font-size: 12px;
   }
   
@@ -218,9 +217,8 @@
     color: white;
     justify-content: space-between;
     display: block;
-    margin-top: 9px;
+    margin-top: auto;
     text-decoration: none;
-    margin: 2px 8px 4px 34px;
     font-size: 12px;
   }
   /*-------------------------@medias--------------*/
