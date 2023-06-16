@@ -360,7 +360,9 @@ border: 0;
       outline: 5px solid white;
       outline-offset: 5px;
   }
-  
+
+  nav ul li a {
+      background: white;
 }
 
 @media (min-width: 35em) {
