@@ -88,20 +88,21 @@ body {
   background-color: hsl( var(--clr-dark) );
   line-height: 1.5;
   min-height: 100vh;
+  
   display: grid;
   grid-template-rows: min-content 1fr;
+  
   overflow-x: hidden;
 }
 
-/* make images easier to work */
+/* make images easier to work with */
 img,
 picutre {
-  max-width: 30%;
+  max-width: 50%;
   display: block;
-  margin: auto;
 }
 
-/* make form Elements easier to work */
+/* make form elements easier to work with */
 input,
 button,
 textarea,
@@ -127,11 +128,6 @@ select {
 /* ------------------- */
 
 /* general */
-.p1 {
-    font-weight: 600;
-   
-    margin: 5px;
-}
 
 .flex {
   display: flex;
@@ -245,6 +241,8 @@ border: 0;
 /* Compontents         */
 /* ------------------- */
 
+
+
 .bg-marble {
   background-image: url(images/marble.jpeg);
 }
@@ -342,7 +340,7 @@ border: 0;
       right: 1rem;
       top: 2rem;
       background: transparent;
-      background-image: url(./images/menu-gif.gif);
+      background-image: url(images/menu-gif.gif);
       background-repeat: no-repeat;
       background-position: center;
       width: 1.5rem;
@@ -359,6 +357,9 @@ border: 0;
       outline-offset: 5px;
   }
   
+  .constrast {
+    background: white;
+  }
 }
 
 @media (min-width: 35em) {
@@ -409,6 +410,16 @@ border: 0;
   background-color: transparent;
 }
 
+.underline-indicators-2 > {
+    cursor: pointer;
+    padding: var(--underline-gap, .5rem) 0;
+    border: 0;
+    border-bottom: .2rem solid hsl( var(--clr-white) / 0 );
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+}
+
 .underline-indicators > *:hover,
 .underline-indicators > *:focus {
   border-color: hsl( var(--clr-white) / .5);
@@ -416,7 +427,7 @@ border: 0;
 
 .underline-indicators > .active,
 .underline-indicators > [aria-selected="true"] {
-  color: hsl( var(--clr-white) / 1);
+  color: black;
   border-color: hsl( var(--clr-white) / 1); 
 }
 
@@ -452,44 +463,40 @@ body {
 
 /* home */
 .home {
-  background-image: url(images/kitchenpic005.jpeg);
-
-.p3 {
-    background: hsl( var(--clr-white) / 0.05);
-    backdrop-filter: blur(1.5rem); 
+  background-image: url(images/island\ &\ cabinets.jpeg);
 }
 
 @media (min-width: 35rem) {
   .home {
       background-position: center center;
-      background-image: url(images/kitchenpic005.jpeg);
+      background-image: url(images/images/island\ &\ cabinets.jpeg);
   }
 }
 
 @media (min-width: 45rem) {
   .home {
-      background-image: url(images/kitchenpic005.jpeg);
+      background-image: url(images/island\ &\ cabinets.jpeg);
   }
 } 
 
 /* About-Us */
 .about-us {
   background-image: url(images/kitchenpic005.jpeg);
-
+}
 
 @media (min-width: 35rem) {
   .about-us {
       background-position: center center;
-      background-image: url(images/kitchenpic005.jpeg);
+      background-image: url(images/island\ &\ cabinets.jpeg);
   }
 }
 
 @media (min-width: 45rem) {
   .about-us {
-      background-image: url(images/kitchenpic005.jpeg);
+      background-image: url(images/island\ &\ cabinets.jpeg);
   }
 } 
-  
+
 /* ----------------------------- */
 /* Layout                        */
 /* ----------------------------- */
@@ -518,7 +525,7 @@ body {
   }
   
   .grid-container--about-us {
-      text-align: center;
+      text-align: left;
       column-gap: var(--container-gap, 2rem);
       grid-template-columns: 178vh;/*minmax(1rem, 1fr) repeat(1, minmax(0, 10rem)) minmax(1rem, 1fr);*/
   }
