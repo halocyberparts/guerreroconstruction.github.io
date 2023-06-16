@@ -304,6 +304,7 @@ border: 0;
 
 .primary-navigation a {
   text-decoration: none;
+  background: gray;
 }
 
 .primary-navigation a > span {
