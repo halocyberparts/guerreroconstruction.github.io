@@ -361,9 +361,6 @@ border: 0;
       outline-offset: 5px;
   }
 
-  nav ul li a {
-      background: white;
-}
 
 @media (min-width: 35em) {
   .primary-navigation {
