@@ -241,7 +241,10 @@ border: 0;
 /* Compontents         */
 /* ------------------- */
 
-
+.blur-1 {
+      backdrop-filter: blur(1.5rem);
+      color: black;
+}
 
 .bg-marble {
   background-image: url(images/marble.jpeg);
@@ -476,6 +479,11 @@ body {
 @media (min-width: 45rem) {
   .home {
       background-image: url(images/island\ &\ cabinets.jpeg);
+  }
+ 
+  .blur-1 {
+      backdrop-filter: blur(1.5rem);
+      color: black;
   }
 } 
 
