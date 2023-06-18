@@ -96,7 +96,7 @@ body {
 /* make images easier */
 img,
 picutre {
-  max-width: 50%;
+  max-width: 30%;
   display: block;
 }
 
