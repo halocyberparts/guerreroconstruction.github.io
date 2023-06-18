@@ -313,6 +313,7 @@ border: 0;
 
 .primary-navigation a {
   text-decoration: none;
+  color: wheat;
 }
 
 .primary-navigation a > span {
@@ -343,6 +344,7 @@ border: 0;
       background: whitesmoke;
       border-radius: 7px;
       padding: 7px 13px;
+      color: black;
   }
 
   .primary-navigation[data-visible="true"] {
