@@ -135,7 +135,7 @@ select {
 }
 
 .p1 {
-  background: radial-gradient(black, transparent);
+  background: radial-gradient(white, transparent);
 }
 
 .flex {
