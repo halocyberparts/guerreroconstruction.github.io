@@ -126,6 +126,9 @@ select {
 /* ------------------- */
 
 /* general */
+.p1 {
+  background: radial-gradient(black, transparent);
+}
 
 .flex {
   display: flex;
