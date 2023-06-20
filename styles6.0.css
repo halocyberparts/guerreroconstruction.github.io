@@ -137,6 +137,8 @@ select {
 
 .p1 {
   background: radial-gradient(white, transparent);
+  width: 350px;
+  height: 260px;
 }
 
 .p4 {
