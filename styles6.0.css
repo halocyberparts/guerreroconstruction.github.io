@@ -127,22 +127,19 @@ select {
 /* ------------------- */
 
 /* general */
+.p1 {
+  font-weight: 600;
+  color: black;
+  margin: 5px;
+  background: hsl( var(--clr-white) / 0.05);
+  backdrop-filter: blur(1.5rem); 
+}
 
 .outline {
   font-size: 40px;
   font-weight: 700;
   color: black;
   -webkit-text-stroke: 2px whitesmoke;
-}
-
-.p1 {
-  background: radial-gradient(white, transparent);
-  width: 350px;
-  height: 260px;
-}
-
-.p4 {
-  padding-top: 10px;
 }
 
 .flex {
