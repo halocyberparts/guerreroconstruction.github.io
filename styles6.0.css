@@ -482,19 +482,19 @@ body {
 
 /* home */
 .home {
-  background-image: url(images/island\ &\ cabinets.jpeg);
+  background-image: url(images/island & cabinets.jpeg);
 }
 
 @media (min-width: 35rem) {
   .home {
       background-position: center center;
-      background-image: url(images/images/island\ &\ cabinets.jpeg);
+      background-image: url(images/island & cabinets.jpeg);
     }
 }
 
 @media (min-width: 45rem) {
   .home {
-      background-image: url(images/island\ &\ cabinets.jpeg);
+      background-image: url(images/island & cabinets.jpeg);
   }
 } 
 
