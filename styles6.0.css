@@ -254,11 +254,6 @@ border: 0;
 /* Compontents         */
 /* ------------------- */
 
-.blur-1 {
-  backdrop-filter: blur(1.5rem);
-  color: black;
-}
-
 .bg-marble {
   background-image: url(images/marble.jpeg);
 }
