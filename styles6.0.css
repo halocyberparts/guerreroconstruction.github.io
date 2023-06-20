@@ -426,8 +426,8 @@ border: 0;
   .lg-view {
     width: 300px;
     height:250px;
+ }
 }
-
 
 .underline-indicators > * {
   cursor: pointer;
