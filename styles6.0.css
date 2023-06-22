@@ -483,6 +483,9 @@ body {
   .home {
       background-image: url(images/island & cabinets.jpeg);
   }
+
+  .home p {
+    font-size: 500;
 } 
 
 /* About-Us */
