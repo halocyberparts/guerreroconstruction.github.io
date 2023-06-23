@@ -283,17 +283,16 @@ select {
     align-items: center;
   }
   
-  .primary-navigation {
-    --gap: clamp(1.5rem, 5vw, 3.5rem);
-    --underline-gap: 2rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    border-radius: 9px;
-    border-radius: 9px;
-    padding: 7px 13px;
-    background: radial-gradient(black, transparent);
-  }
+.primary-navigation {
+  --gap: clamp(1.5rem, 5vw, 3.5rem);
+  --underline-gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 9px;
+  padding: 7px 13px;
+  background: radial-gradient(black, transparent);
+}
   
   .primary-navigation a {
     text-decoration: none;
