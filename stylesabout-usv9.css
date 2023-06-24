@@ -349,8 +349,10 @@ select {
   }
   
   .primary-navigation a {
-    text-decoration: none;
-    background: gray;
+    background: white;
+    border-radius: 7px;
+    padding: 7px 13px;
+    color: black;
   }
   
   .primary-navigation a > span {
