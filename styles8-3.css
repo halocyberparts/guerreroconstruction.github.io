@@ -17,6 +17,12 @@
   --fs-300: 0.6875rem;
   --fs-400: 0.8125rem;
   --fs-500: 1.25rem;
+
+   /* font-families */
+  --ff-serif: "Bellefair", serif;
+  --ff-sans-cond: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Barlow", sans-serif;
+  --ff-acme: 'Acme', sans-serif;
 }
 
 /* Box sizing rules */
