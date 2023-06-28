@@ -480,7 +480,7 @@
   }
   .sliders{
     position: absolute;
-    top: 35%;
+    top: 25%;
     width: 45px;
     cursor: pointer;
     border: 2px solid gray;
