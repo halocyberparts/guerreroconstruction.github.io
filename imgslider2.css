@@ -230,16 +230,18 @@
         display: flex;
         justify-content: space-between;
         font-family: 'Zen Dots';  
+        margin:  
   }
   
     .sub-menu-2 a {
     color: white;
     justify-content: space-between;
     display: block;
-    margin-top: auto;
+    margin: 5px 5px 5px 5px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 12px;   
   }
+
   /*-------------------------@medias--------------*/
   @media (min-width: 400px) {
     .sub-menu-1 {
