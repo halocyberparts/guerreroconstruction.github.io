@@ -28,6 +28,36 @@
 /* Box sizing rules */
 *,
 *::before,
+*::after {:root {
+  --clr-primary-400: 263 55% 52%;
+  --clr-secondary-400: 217 19% 35%;
+  --clr-secondary-500: 219 29% 14%;
+  --clr-neutral-100: 0 0% 100%;
+  --clr-neutral-200: 210 46% 95%;
+  --clr-neutral-300: 0 0% 81%;
+
+  --ff-primary: "Barlow Semi Condensed", sans-serif;
+  --font-family: 'Playfair Display', serif;
+  --font-family: 'Zen Dots', cursive;
+
+
+  --fw-400: 500;
+  --fw-700: 600;
+
+  --fs-300: 0.6875rem;
+  --fs-400: 0.8125rem;
+  --fs-500: 1.25rem;
+
+   /* font-families */
+  --ff-serif: "Bellefair", serif;
+  --ff-sans-cond: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Barlow", sans-serif;
+  --ff-acme: 'Acme', sans-serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -108,9 +138,8 @@ body {
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
   background: linear-gradient(skyblue, gray);
-  /*background-color: ;*/
 }
-/*hsl(var(--clr-neutral-200));*/
+
 h1,
 h2,
 h3 {
@@ -152,6 +181,18 @@ h3 {
 }
 
 /* components */
+.outline {
+    -webkit-text-stroke: 2px whitesmoke;
+  }
+
+  .outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+
+.goog-te-gadget {
+  margin-left: 5px;
+}
+
 .layout-grid {
   display: grid;
   gap: 1.5rem;
@@ -167,13 +208,6 @@ h3 {
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
-}
-
-.testimonial {
-  font-size: var(--fs-400);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
 }
 
 .layout:nth-child(1) {
@@ -239,9 +273,9 @@ h3 {
 .sub-top-small-header {
   background: lightsalmon;
   width: 100%;
-  height: 28px;
+  height: 30px;
   text-align: center;
-  border-bottom: 2px solid skyblue;
+  border-bottom: 2px solid red;
 }
 
 .sub-top-small-header p {
@@ -253,22 +287,19 @@ h3 {
 /*-------top-small-header-end------*/
 /*----------Nav-start----------------------*/
 nav {
-  background: dodgerblue;
+  background: radial-gradient(blue, transparent);
   height: 120px;
   width: 100%;
-  border-bottom: white 2px solid;
-  
-  
 }
 /*-----label----*/
 label.logo {
-  color: black;
-  font-size: 65px;
-  line-height: 150px;
-  padding: 0 100px;
+  color: midnightblue;
+  font-size: 85px;
+  line-height: 120px;
+  padding: 0 80px;
   font-weight: bold;
   text-align: left;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Acme', serif;
 }
 
 nav ul {
@@ -283,13 +314,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: black;
   font-size: 18px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
   font-family: ff-sans-serif;
   text-decoration: none;
+  background: white;
 }
 
 a.active,a:hover {
@@ -312,29 +344,38 @@ a.active,a:hover {
 #check {
   display: none;
 }
-
-
-@media (max-width: 653px) {
-  label.logo {
-      font-size: 38px;
-      padding-left: 20px;
-      color: white;
-  }
-
-  nav ul li a {
-      font-size: 16px;
-  }
-
-  .scrolling-info {
-      margin: auto;
-  }
-
-  .sub-top-small-header {
-      margin: auto;
-  }
+/*
+.ads-mobile {
+  background: whitesmoke;
+}
+*/
+.sub-footer {
+  margin: auto;
+  background: lightsalmon;
 }
 
-@media (max-width: 658px) {
+/*----mobile-------*/
+@media (min-width: 319px) and (max-width: 480px) {
+  label.logo {
+    font-size: 58px;
+    padding-left: 20px;
+    color: orange;
+    font-family: 'Acme', serif;
+}
+}
+
+nav ul li a {
+    font-size: 16px;
+}
+
+.scrolling-info {
+    margin: auto;
+}
+
+.sub-top-small-header {
+    margin: auto;
+}
+
       .checkbtn {
         display: block;
   }
@@ -343,7 +384,7 @@ a.active,a:hover {
       position: absolute;
       width: 75%;
       height: 100vh;
-      background: #2c3e50;
+      background: radial-gradient(black, transparent);
       top: 38px;
       left: -100%;
       text-align: center;
@@ -363,12 +404,19 @@ a.active,a:hover {
 
   a:hover,a.active {
       background: none;
-      color: #0082e6;
+      color: yellow;
   }
 
   #check:checked ~ ul {
   left: 0;
+  }
 }
+
+/*-------Desktop------*/  
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .ads-mobile-desktop {
+    display: none;
+  }
 }
 
 /* css for manual slide navigation */ 
@@ -464,8 +512,9 @@ label.logo-footer {
   color: black;
   font-size: 22px;
   line-height: 90px;
-  padding: 0 100px;
   font-weight: bold;
+  display: block;
+  text-align: center;
   
 }
 
@@ -653,6 +702,8 @@ p.max-content {
 p.min-content {
   width: min-content;
 }
+
+
 
 
 
